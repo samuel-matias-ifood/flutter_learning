@@ -17,11 +17,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: appName,
       theme: ThemeData(
-        // Define the default brightness and colors.
         brightness: Brightness.dark,
         primaryColor: Colors.lightBlue[800],
         accentColor: Colors.cyan[600],
-        // Define the default font family.
         fontFamily: 'Montserrat',
       ),
       home: MyHomePage(
@@ -101,7 +99,7 @@ class MyHomePage extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
-        Text("Samuca XD"),
+        Text("God Example about TextThemeCustom!"),
         Icon(
           Icons.access_alarm,
           size: Space.fire_bush,
