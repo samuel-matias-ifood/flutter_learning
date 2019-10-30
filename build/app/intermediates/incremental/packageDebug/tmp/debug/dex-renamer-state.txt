@@ -1,0 +1,4 @@
+#Thu Sep 19 13:31:07 BRT 2019
+base.0=/Users/samuelmataraso/workspace/my_stuffs/flutter/flutter-style-themes/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
