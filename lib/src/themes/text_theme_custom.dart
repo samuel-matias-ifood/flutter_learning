@@ -6,16 +6,22 @@ class TextThemeCustom {
 
 class Title {
   final TextStyle h1 = TextStyle(
-    fontSize: 20.0,
+    fontSize: Const.fontSizeH1,
     fontStyle: FontStyle.italic,
   );
   final TextStyle h2 = TextStyle(
-      fontSize: 18.0,
+      fontSize: Const.fontSizeH2,
       color: Colors.red,
       fontStyle: FontStyle.normal,
       fontWeight: FontWeight.bold);
   final TextStyle h3 = TextStyle(
-    fontSize: 16.0,
+    fontSize: Const.fontSizeH3,
     fontWeight: FontWeight.normal,
   );
+}
+
+class Const {
+  static const double fontSizeH1 = 20.0;
+  static const double fontSizeH2 = 18.0;
+  static const double fontSizeH3 = 16.0;
 }
