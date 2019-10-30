@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 class ButtonThemeCustom {
   static primaryButton(GestureTapCallback onPress, Widget label) {
     final Container primaryButton1 = Container(
-        width: 300,
-        height: 50,
+        width: Const.containerWidth,
+        height: Const.containerHeight,
         decoration: BoxDecoration(
           border: Border.all(
             color: Colors.red,
@@ -22,4 +22,9 @@ class ButtonThemeCustom {
 
     return primaryButton2;
   }
+}
+
+class Const {
+  static const double containerWidth = 300.0;
+  static const double containerHeight = 50.0;
 }
